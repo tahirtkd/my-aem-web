@@ -1,0 +1,47 @@
+.interest-cards {
+    display: flex;
+}
+
+.interest-card {
+    width: 192px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--GC-Citrus, #8CB133);
+    text-align: center;
+    margin: 30px;
+
+}
+
+.interest-card-titel {
+    color: var(--GC-Arctic-White, #FFF);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.interest-card-headig {
+    color: var(--GC-Arctic-White, #FFF);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+}
+
+.interest-card-peragraph {
+    color: var(--GC-Arctic-White, #FFF);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+}
