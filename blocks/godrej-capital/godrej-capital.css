@@ -1,16 +1,33 @@
+.godrej-capital-wrapper {
+    padding: 20px 0px;
+}
+
 .interest-cards {
     display: flex;
+    justify-content: space-between;
+}
+
+.interest-documents-heading.block p {
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.23px;
+    text-align: center;
+    margin: 0px;
 }
 
 .interest-card {
-    width: 192px;
-    height: 160px;
+    width: 210px;
+    height: 180px;
     flex-shrink: 0;
     border-radius: 4px;
     background: var(--GC-Citrus, #8CB133);
     text-align: center;
-    margin: 30px;
-
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .interest-card-titel {
@@ -20,7 +37,7 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 5px;
     margin: 0;
 }
 
@@ -44,4 +61,28 @@
     font-weight: 300;
     line-height: normal;
     margin: 0;
+    padding-bottom: 20px;
+}
+
+.card-subtitel {
+    margin: 12px 80px 0px 0px;
+}
+
+.subtitel-card-heading {
+    color: var(--GC-Eerie-Black, #242424);
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+.subtitel-card-text {
+    width: 232px;
+    color: var(--GC-Eerie-Black, #242424);
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

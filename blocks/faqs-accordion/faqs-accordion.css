@@ -1,0 +1,97 @@
+.frequently-asked-questions-container {
+    display: flex;
+    background: #F4F4F4;
+    padding: 25px 80px;
+}
+
+
+.frequently-asked-questions-button {
+    background-color: #FFF;
+    color: #000;
+    border: 1.5px solid #fff;
+    font-size: 17px;
+    padding: 14px 12px;
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.frequently-asked-questions-button:hover {
+    background-color: #3CB8FF;
+    color: #FFF;
+    border: 1.5px solid #000;
+    cursor: pointer;
+}
+
+
+.frequently-asked-questions-wrapper {
+    flex: 0.3;
+}
+
+.faqs-accordion-wrapper {
+    flex: 0.7;
+}
+
+.faqs-accordion-question {
+    background: #E8E8E8;
+    padding: 20px;
+    border-radius: 4px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    background-image: url('data:image/svg+xml,%3Csvg%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%224%22%20fill%3D%22white%22%20%2F%3E%3Cpath%20d%3D%22M15.7905%2010V20H13.9526V10H15.7905ZM19.7233%2014.1107V15.8696H10V14.1107H19.7233Z%22%20fill%3D%22%233CB8FF%22%20%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+        background-position: 99% 50%;
+}
+.faqs-accordion-question.show {
+    background-image: url('data:image/svg+xml,%3Csvg%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%224%22%20fill%3D%22%233CB8FF%22%20%2F%3E%3Cpath%20d%3D%22M20%2014V16.5152H10V14H20Z%22%20fill%3D%22white%22%20%2F%3E%3C%2Fsvg%3E');
+}
+
+
+.faqs-accordion-question p {
+    margin: 0px;
+}
+
+.faqs-accordion-answer {
+    background: #E8E8E8;
+    padding: 20px;
+    border-radius: 4px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.faqs-accordion-answer p {
+    margin: 0px;
+}
+
+.faqs-accordion-item {
+    margin: 10px 0px;
+}
+
+.faqs-accordion-answer {
+    display: none;
+}
+
+.faqs-accordion-answer.show {
+    display: block;
+}
+
+.frequently-asked-questions-pera {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.77px;
+    text-align: left;
+}
+
+.frequently-asked-questions-heading h1 {
+    font-family: Work Sans;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: left;
+}

@@ -1,0 +1,121 @@
+.documents-cards-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.documents-cards-button {
+    background-color: #FFF;
+    color: #000;
+    border: 1.5px solid #fff;
+    font-size: 17px;
+    padding: 14px 12px;
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.documents-cards-button.active {
+    background-color: #3CB8FF;
+    color: #FFF;
+    border: 1.5px solid #000;
+}
+
+.resident-type-dropdown {
+    padding: 14px 55px;
+    color: var(--Charcoal-Black, #3B3B3B);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 4px;
+    background: var(--White, #FFF);
+}
+
+.godrej-capital-container {
+    border-radius: 4px;
+    background: var(--Citrus-Light, #F0F6E4);
+    max-width: 80%;
+    margin: auto;
+    padding: 30px 70px;
+}
+
+.kyc-document-blogs-wrapper {
+    background-color: white;
+    padding: 20px;
+}
+
+.kyc-document-blogs {
+    background-color: var(--Citrus-Light, #F0F6E4);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.document-description >div:first-of-type p {
+    font-family: Work Sans;
+    font-size: 24.19px;
+    font-weight: 500;
+    line-height: 28.38px;
+    margin: 0px;
+}
+.document-description>div:nth-of-type(2) {
+    font-family: Work Sans;
+        font-size: 16.13px;
+        font-weight: 400;
+        line-height: 18.92px;
+        text-align: left;
+        width: 1129px;
+        height: 38px;
+}
+.document-description>div:nth-of-type(3) {
+font-family: Work Sans;
+    font-size: 16.13px;
+    font-weight: 300;
+    line-height: 18.92px;
+    text-align: left;
+    display: flex;
+}
+.kyc-documents>div:nth-of-type(4){
+    border-radius: 2px 0px 0px 0px;
+        font-family: Work Sans;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.42px;
+        border: 2px solid #3CB8FF;
+        max-width: 278px;
+        text-align: center;
+        margin-top: 20px;
+}
+
+.property-documents>div:nth-of-type(3){
+    font-family: Work Sans;
+        font-size: 24.19px;
+        font-weight: 500;
+        line-height: 28.38px;
+}
+.property-documents>div:nth-of-type(2) {
+font-family: Work Sans;
+    font-size: 16.13px;
+    font-weight: 300;
+    line-height: 18.92px;
+    text-align: left;
+    
+}
+.property-documents>div:nth-of-type(4) {
+    font-family: Work Sans;
+        font-size: 16.13px;
+        font-weight: 300;
+        line-height: 18.92px;
+        text-align: left;
+     
+}
+
+.document-description {
+    background-color: white;
+    padding: 1px 50px 20px 50px;
+    display: none;
+}
+
+
+.show-description {
+    display: block;
+}
