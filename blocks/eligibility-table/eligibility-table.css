@@ -1,0 +1,62 @@
+.eligibility-table {
+    display: flex;
+    flex-direction: column;
+   padding: 0 46px;
+}
+
+.eligibility-table-colums table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+@media (width >=600px) {
+    table {
+        font-size: var(--body-font-size-s);
+    }
+}
+
+@media (width >=900px) {
+    table {
+        font-size: var(--body-font-size-m);
+    }
+}
+
+table td {
+    font-weight: 300;
+}
+
+table th,
+table td {
+    padding: 8px 16px;
+    text-align: left;
+}
+
+table th,
+table td {
+    border: 1px solid;
+}
+
+.eligibility-table-wrapper{
+    background-color: white;
+}
+
+.eligibility-table-peragraph p{
+
+    font-size: 16px;
+    line-height: 21.77px;
+    text-align: left;
+  
+}
+
+.eligibility-table-Disclaimer p{
+font-family: Work Sans;
+    font-size: 10px;
+    line-height: 24px;
+    text-align: center;
+    color: #696969;
+}
+
+table tbody tr:first-child td{
+    font-weight: 500;
+}

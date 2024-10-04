@@ -50,66 +50,71 @@
     border-radius: 4px;
 }
 
-.document-description >div:first-of-type p {
+.add-document>div:first-of-type p {
     font-family: Work Sans;
     font-size: 24.19px;
     font-weight: 500;
     line-height: 28.38px;
     margin: 0px;
 }
-.document-description>div:nth-of-type(2) {
+
+.add-document>div:nth-of-type(2) {
     font-family: Work Sans;
-        font-size: 16.13px;
-        font-weight: 400;
-        line-height: 18.92px;
-        text-align: left;
-        width: 1129px;
-        height: 38px;
+    font-size: 16.13px;
+    font-weight: 400;
+    line-height: 18.92px;
+    text-align: left;
+    width: 1129px;
+    height: 38px;
 }
-.document-description>div:nth-of-type(3) {
-font-family: Work Sans;
+
+.add-document>div:nth-of-type(3) {
+    font-family: Work Sans;
     font-size: 16.13px;
     font-weight: 300;
     line-height: 18.92px;
     text-align: left;
     display: flex;
 }
-.kyc-documents>div:nth-of-type(4){
+
+.kyc-documents>div:nth-of-type(4) {
     border-radius: 2px 0px 0px 0px;
-        font-family: Work Sans;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 16.42px;
-        border: 2px solid #3CB8FF;
-        max-width: 278px;
-        text-align: center;
-        margin-top: 20px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.42px;
+    border: 2px solid #3CB8FF;
+    max-width: 278px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.property-documents>div:nth-of-type(3){
+.property-documents>div:nth-of-type(3) {
     font-family: Work Sans;
-        font-size: 24.19px;
-        font-weight: 500;
-        line-height: 28.38px;
+    font-size: 24.19px;
+    font-weight: 500;
+    line-height: 28.38px;
 }
+
 .property-documents>div:nth-of-type(2) {
-font-family: Work Sans;
+    font-family: Work Sans;
     font-size: 16.13px;
     font-weight: 300;
     line-height: 18.92px;
     text-align: left;
-    
-}
-.property-documents>div:nth-of-type(4) {
-    font-family: Work Sans;
-        font-size: 16.13px;
-        font-weight: 300;
-        line-height: 18.92px;
-        text-align: left;
-     
+
 }
 
-.document-description {
+.property-documents>div:nth-of-type(4) {
+    font-family: Work Sans;
+    font-size: 16.13px;
+    font-weight: 300;
+    line-height: 18.92px;
+    text-align: left;
+
+}
+
+.add-document {
     background-color: white;
     padding: 1px 50px 20px 50px;
     display: none;
@@ -118,4 +123,32 @@ font-family: Work Sans;
 
 .show-description {
     display: block;
+}
+
+.section.highlight {
+    background-color: #F0F6E4 !important;
+    padding: 20px 50px 0px;
+    padding: 0px 100px;
+    margin: 0px 100px;
+}
+
+.default-content-wrapper p {
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.kyc-document-blogs-container {
+    padding: 0px 100px;
+    background: #F0F6E4;
+    margin: 0px 100px;
+}
+
+.eligibility-table {
+    display: none !important;
+}
+
+.eligibility-table.show-description  {
+    display: flex !important;
 }

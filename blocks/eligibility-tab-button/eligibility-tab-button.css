@@ -1,0 +1,31 @@
+.eligibility-tab-button-container{
+    background: #F0F6E4;
+}
+.eligibility-tab-buttons-heding p{
+    font-family: Work Sans;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 42.23px;
+        text-align: center;
+        color: #3B3B3B;
+        padding: 20px 0px;
+        margin: 0;
+}
+.eligibility-tab-buttons{
+    display: flex;
+}
+
+.eligibility-tab-buttons p{
+padding: 12px 12px;
+    border-radius: 4px;
+    background: #3CB8FF;
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+/* .eligibility-tabe-buttons.active p{
+   color: #000;
+   background-color: #FFFFFF;
+} */
