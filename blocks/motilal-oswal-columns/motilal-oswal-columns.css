@@ -1,26 +1,26 @@
-.columns {
+.motilal-oswal-columns {
   max-width: 1200px;
   margin: auto;
 }
 
-.columns>div {
+.motilal-oswal-columns>div {
   display: flex;
   flex-direction: column;
 }
 
-.columns img {
+.motilal-oswal-columns img {
   width: 100%;
 }
 
-.columns>div>div {
+.motilal-oswal-columns>div>div {
   order: 1;
 }
 
-.columns>div>.columns-img-col {
+.motilal-oswal-columns>div>.columns-img-col {
   order: 0;
 }
 
-.columns>div>.columns-img-col img {
+.motilal-oswal-columns>div>.columns-img-col img {
   display: block;
 }
 
@@ -61,11 +61,11 @@
 margin-bottom: 1.5rem;
 display: block;
 }
-.button-container {
+.motilal-oswal-columns p {
   cursor: pointer;
 }
 
-.button-container a::before {
+.motilal-oswal-columns p a::before {
   content: "";
   transition: all .45s cubic-bezier(.65, 0, .076, 1);
   width: 1.125rem;
@@ -76,7 +76,7 @@ display: block;
   top: 50%;
   left: 109%;
 }
-.button-container a::after{
+.motilal-oswal-columns p a::after{
   transition: all .45s cubic-bezier(.65, 0, .076, 1);
   position: absolute;
     content: "";
@@ -88,17 +88,17 @@ display: block;
     border-right: .125rem solid #fb4d4d;
     transform: rotate(45deg);
 }
-.button-container a:hover::after {
+.motilal-oswal-columns p a:hover::after {
   
   transform: translate(1rem) rotate(45deg);
 }
-.button-container a:hover::before {
+.motilal-oswal-columns p a:hover::before {
   background: #fb4d4d;
     transform: translate(1rem);
     
 }
 
-.button-container a {
+.motilal-oswal-columns p a {
   position: relative;
   transition: all .45s cubic-bezier(.65, 0, .076, 1);
   display: inline-block;
