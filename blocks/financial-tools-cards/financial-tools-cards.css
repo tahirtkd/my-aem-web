@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .connect-with-our-customer-heading p picture {
@@ -58,4 +58,14 @@
 .connect-with-our-customers picture:nth-child(2) {
     margin-left: 5rem;
     width: 1.75rem;
+}
+
+@media (max-width: 600px) {
+    .connect-with-our-customer-card {
+        display: block;
+    }
+
+    .connect-with-our-customer-card p{
+        justify-content: space-around;
+    }
 }
