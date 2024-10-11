@@ -115,5 +115,6 @@
     .motilal-oswal-cars {
         padding: 0px;
         flex-wrap: wrap;
+        margin-bottom: 40px;
     }
 }
