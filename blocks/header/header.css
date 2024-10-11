@@ -451,7 +451,7 @@ header nav .nav-tools {
   /* Space items evenly */
   align-items: center;
   /* Align items vertically */
-  margin-right: -16%;
+  margin-right: -12%;
 }
 
 .default-content-wrapper>ul:last-of-type li {
