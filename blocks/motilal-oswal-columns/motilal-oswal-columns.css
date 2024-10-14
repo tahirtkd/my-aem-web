@@ -150,20 +150,20 @@
   display: none; 
 }
 
-@media (min-width: 767px) {
-  .columns-img-col picture img:first-child {
+@media (min-width: 768px) {
+  .columns-img-col picture img:first-of-type {
     display: block;
   }
-  .columns-img-col picture img:last-child {
+  .columns-img-col picture img:last-of-type {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .columns-img-col picture img:last-child {
-    display: block;
-  }
-  .columns-img-col picture img:first-child {
+  .columns-img-col picture img:first-of-type {
     display: none;
+  }
+  .columns-img-col picture img:last-of-type {
+    display: block;
   }
 }
