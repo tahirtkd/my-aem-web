@@ -117,6 +117,9 @@
   vertical-align: middle;
   text-decoration: none;
 }
+.motilal-oswal-columns > div > div:nth-child(2) {
+  display: none;
+}
 
 @media (width >=900px) {
   .columns>div {
