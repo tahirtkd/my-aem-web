@@ -154,10 +154,16 @@
   .columns-img-col picture img:first-child {
     display: block;
   }
+  .columns-img-col picture img:last-child {
+    display: none;
+  }
 }
 
 @media (max-width: 599px) {
   .columns-img-col picture img:last-child {
     display: block;
+  }
+  .columns-img-col picture img:first-child {
+    display: none;
   }
 }
