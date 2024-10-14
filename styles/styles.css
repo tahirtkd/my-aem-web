@@ -184,7 +184,11 @@ button.secondary {
   border: 2px solid currentcolor;
   color: var(--text-color);
 }
-
+main
+{
+  overflow: hidden;
+  padding: 0;
+}
 main img {
   max-width: 100%;
   width: auto;
