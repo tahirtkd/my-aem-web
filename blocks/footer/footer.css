@@ -83,17 +83,21 @@
   margin-top: 20px;
 }
 
-.footer-section-details > div > p,
-.footer-section-details > div:nth-child(2) > p,
-.footer-section-details > div:nth-child(3) > p{
-  font-size: 20px;
-  border-bottom: 1px solid rgba(33, 41, 90, .2);
-  margin-bottom: 25px;
-  padding-bottom: 10px;
-  color: #1a294e;
-  font-family: Roboto;
-  font-weight: 700;
-  text-transform: uppercase;
+.footer-section-details > div > div > p {
+  font-size: 20px;                     
+  border-bottom: 1px solid rgba(33, 41, 90, .2); 
+  margin-bottom: 25px;                
+  padding-bottom: 10px;               
+  color: #1a294e;                     
+  font-family: Roboto;                
+  font-weight: 700;                   
+  text-transform: uppercase;          
+}
+.footer-section-details > div:nth-child(3) img {
+  
+  width: 22px;
+  height: 20px;
+  margin-top: -4px; 
 }
 
 .footer-section-details div>hr {
