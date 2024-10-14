@@ -127,3 +127,13 @@
   width: auto !important;
   height: 35px;
 }
+
+
+@media (max-width: 767px) {
+  .footer-section-details-wrapper
+  {
+    padding-left: 5vw;
+    width: 90%;
+    padding-right: 5vw;
+  }
+}

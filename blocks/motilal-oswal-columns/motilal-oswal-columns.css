@@ -149,6 +149,12 @@
   .columns-img-col:nth-of-type(even) picture {
     display: block;
   }
+  .motilal-oswal-columns-wrapper
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+  }
 }
 
 /* Ensure images are responsive */
