@@ -133,37 +133,27 @@
   }
 }
 
-
-@media (max-width: 600px) {
-  .motilal-oswal-columns>div>div {
-    padding-top: 10px;
-  }
-
-  .motilal-oswal-columns>div {
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    padding: 20px;
-    margin: 10px;
-
-  }
-}
-.columns-img-col picture img {
-  display: none; 
-}
-
 @media (min-width: 768px) {
-  .columns-img-col picture img {
-    display: none;
-  }
-  .columns-img-col picture img:first-child {
+  .columns-img-col:first-of-type picture {
     display: block;
+  }
+  .columns-img-col:nth-of-type(2) picture {
+    display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .columns-img-col picture img {
+  .columns-img-col:first-of-type picture {
     display: none;
   }
-  .columns-img-col picture img:last-child {
+  .columns-img-col:nth-of-type(2) picture {
     display: block;
   }
+}
+
+/* Ensure images are responsive */
+.columns-img-col picture img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
