@@ -134,19 +134,19 @@
 }
 
 @media (min-width: 768px) {
-  .columns-img-col:first-of-type picture {
+  .columns-img-col:nth-of-type(odd) picture {
     display: block;
   }
-  .columns-img-col:nth-of-type(2) picture {
+  .columns-img-col:nth-of-type(even) picture {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .columns-img-col:first-of-type picture {
+  .columns-img-col:nth-of-type(odd) picture {
     display: none;
   }
-  .columns-img-col:nth-of-type(2) picture {
+  .columns-img-col:nth-of-type(even) picture {
     display: block;
   }
 }
