@@ -146,3 +146,18 @@
 
   }
 }
+.columns-img-col picture img {
+  display: none; 
+}
+
+@media (min-width: 600px) {
+  .columns-img-col picture img:first-child {
+    display: block;
+  }
+}
+
+@media (max-width: 599px) {
+  .columns-img-col picture img:last-child {
+    display: block;
+  }
+}
