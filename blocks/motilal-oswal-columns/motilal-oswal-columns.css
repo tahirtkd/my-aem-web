@@ -151,19 +151,19 @@
 }
 
 @media (min-width: 768px) {
-  .columns-img-col picture img:first-of-type {
-    display: block;
-  }
-  .columns-img-col picture img:last-of-type {
+  .columns-img-col picture img {
     display: none;
+  }
+  .columns-img-col picture img:first-child {
+    display: block;
   }
 }
 
 @media (max-width: 767px) {
-  .columns-img-col picture img:first-of-type {
+  .columns-img-col picture img {
     display: none;
   }
-  .columns-img-col picture img:last-of-type {
+  .columns-img-col picture img:last-child {
     display: block;
   }
 }
