@@ -133,23 +133,22 @@
 }
 
 @media (min-width: 768px) {
-  .columns-img-col:nth-of-type(odd) picture {
+  .columns-img-col picture:first-of-type {
     display: block;
   }
-  .columns-img-col:nth-of-type(even) picture {
+  .columns-img-col picture:last-of-type {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .columns-img-col:nth-of-type(odd) picture {
+  .columns-img-col picture:first-of-type {
     display: none;
   }
-  .columns-img-col:nth-of-type(even) picture {
+  .columns-img-col picture:last-of-type {
     display: block;
   }
-  .motilal-oswal-columns-wrapper
-  {
+  .motilal-oswal-columns-wrapper {
     margin-right: auto;
     margin-left: auto;
     width: 90%;
