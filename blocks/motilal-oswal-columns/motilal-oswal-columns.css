@@ -130,40 +130,37 @@
     flex: 1;
     order: unset;
   }
+}.motilal-oswal-columns > div {
+  display: flex;
+  flex-direction: column;
 }
+
 .columns-img-col {
-  display: none;
-}
-
-.columns-img-col picture {
-  display: block;
-}
-
-.columns-img-col picture source,
-.columns-img-col picture img {
   display: none;
 }
 
 /* Desktop styles */
 @media (min-width: 768px) {
-  .motilal-oswal-columns > div > .columns-img-col:first-of-type {
+  .motilal-oswal-columns > div:nth-child(odd) > .columns-img-col:first-of-type,
+  .motilal-oswal-columns > div:nth-child(even) > .columns-img-col:last-of-type {
     display: block;
   }
-  
-  .motilal-oswal-columns > div > .columns-img-col:first-of-type picture source[media="(min-width: 600px)"],
-  .motilal-oswal-columns > div > .columns-img-col:first-of-type picture img {
+
+  .motilal-oswal-columns > div:nth-child(odd) > .columns-img-col:first-of-type picture source[media="(min-width: 600px)"],
+  .motilal-oswal-columns > div:nth-child(even) > .columns-img-col:last-of-type picture source[media="(min-width: 600px)"] {
     display: block;
   }
 }
 
 /* Mobile styles */
 @media (max-width: 767px) {
-  .motilal-oswal-columns > div > .columns-img-col:last-of-type {
+  .motilal-oswal-columns > div:nth-child(odd) > .columns-img-col:last-of-type,
+  .motilal-oswal-columns > div:nth-child(even) > .columns-img-col:first-of-type {
     display: block;
   }
-  
-  .motilal-oswal-columns > div > .columns-img-col:last-of-type picture source:not([media]),
-  .motilal-oswal-columns > div > .columns-img-col:last-of-type picture img {
+
+  .motilal-oswal-columns > div:nth-child(odd) > .columns-img-col:last-of-type picture source:not([media]),
+  .motilal-oswal-columns > div:nth-child(even) > .columns-img-col:first-of-type picture source:not([media]) {
     display: block;
   }
 
@@ -178,4 +175,16 @@
 .columns-img-col picture img {
   max-width: 100%;
   height: auto;
+  display: block;
+}
+
+/* Show appropriate images */
+.columns-img-col picture source:not([media]),
+.columns-img-col picture source[media="(min-width: 600px)"] {
+  display: none;
+}
+
+.columns-img-col picture source[media="(min-width: 600px)"]:first-of-type,
+.columns-img-col picture source:not([media]):first-of-type {
+  display: block;
 }
