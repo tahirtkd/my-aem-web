@@ -131,21 +131,20 @@
     order: unset;
   }
 }
-
 @media (min-width: 768px) {
-  .columns-img-col picture:first-of-type {
+  .columns-img-col:first-of-type {
     display: block;
   }
-  .columns-img-col picture:last-of-type {
+  .columns-img-col:last-of-type {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .columns-img-col picture:first-of-type {
+  .columns-img-col:first-of-type {
     display: none;
   }
-  .columns-img-col picture:last-of-type {
+  .columns-img-col:last-of-type {
     display: block;
   }
   .motilal-oswal-columns-wrapper {
@@ -160,4 +159,22 @@
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* Hide all sources by default */
+.columns-img-col picture source {
+  display: none;
+}
+
+/* Show appropriate sources based on media queries */
+@media (min-width: 768px) {
+  .columns-img-col:first-of-type picture source[media="(min-width: 600px)"] {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .columns-img-col:last-of-type picture source:not([media]) {
+    display: block;
+  }
 }
