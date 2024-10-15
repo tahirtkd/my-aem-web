@@ -1,6 +1,5 @@
 header .nav-wrapper {
   background-color: #fcb017;
-  width: 99%;
   z-index: 2;
   position: relative;
   text-align: center;
@@ -33,13 +32,13 @@ header nav {
 .nav-sections>.default-content-wrapper> :first-child {
   background-color: #333;
   color: white;
-  width: 113%;
+  width: 117.6%;
   padding-left: 15px;
   display: flex;
   padding-right: 30px;
   padding-top: 50px;
   justify-content: space-between;
-
+  padding-right: 150px;
 }
 
 .nav-sections>.default-content-wrapper {
@@ -174,7 +173,7 @@ header .nav-brand {
 
 header nav .nav-brand img {
   width: 160px !important;
-  height: 65px;
+  height: 110px;
   padding-top: 44px;
 }
 
@@ -269,6 +268,7 @@ header nav .nav-sections ul>li>ul>li {
     font-family: Roboto;
     font-weight: 700;
     padding: 0 21px 0 10px;
+    cursor: pointer;
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li>ul {
@@ -286,6 +286,7 @@ header nav .nav-sections ul>li>ul>li {
     white-space: initial;
     font-size: 13px;
     display: block;
+    padding: 0px 2px;
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li>ul::before {
@@ -299,7 +300,8 @@ header nav .nav-sections ul>li>ul>li {
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li>ul>li {
-    padding: 8px 0;
+    /* padding: 8px 0; */
+    border-bottom: 1px solid #ccc;
   }
 }
 
@@ -309,7 +311,7 @@ header nav .nav-tools {
 
 .default-content-wrapper>ul:nth-of-type(2) :hover {
   color: white;
-  height: 30px;
+  /* height: 30px; */
 }
 
 .default-content-wrapper {
@@ -422,6 +424,7 @@ header nav .nav-tools {
   margin: 18px 15px !important;
   margin-top: 4px !important;
   cursor: pointer;
+  display: flex;
 }
 
 .default-content-wrapper>ul:last-of-type>li:last-of-type {
@@ -441,6 +444,7 @@ header nav .nav-tools {
   margin-left: 15px;
   cursor: pointer;
   margin-top: 4px !important;
+  display: flex;
 }
 
 .default-content-wrapper>ul:last-of-type {
@@ -476,7 +480,7 @@ header nav .nav-sections .nav-drop>ul>li:nth-child(3):hover {
 }
 
 header nav .nav-sections .nav-drop>ul>li:nth-child(1):hover {
-  padding: 0;
+  /* padding: 0; */
   height: 30px;
 }
 
@@ -490,7 +494,7 @@ header nav .nav-sections .nav-drop[aria-expanded="true"]>ul>li:hover {
 }
 
 header nav .nav-sections .nav-drop>ul>li:hover {
-  padding-left: 16px;
+  padding-left: 0px;
   height: auto;
   border: none;
 }
