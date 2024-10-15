@@ -131,3 +131,77 @@
     order: unset;
   }
 }
+.motilal-oswal-columns > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.motilal-oswal-columns > div > div p {
+  margin: 0; /* Remove default paragraph margins */
+}
+
+.motilal-oswal-columns > div > div p picture {
+  display: block;
+}
+
+.motilal-oswal-columns > div > div p picture source,
+.motilal-oswal-columns > div > div p picture img {
+  display: none;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .motilal-oswal-columns > div > div p:first-of-type {
+    display: block;
+  }
+  
+  .motilal-oswal-columns > div > div p:first-of-type picture source[media="(min-width: 600px)"],
+  .motilal-oswal-columns > div > div p:first-of-type picture img {
+    display: block;
+  }
+  
+  .motilal-oswal-columns > div > div p:last-of-type {
+    display: none;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .motilal-oswal-columns > div > div p:first-of-type {
+    display: none;
+  }
+  
+  .motilal-oswal-columns > div > div p:last-of-type {
+    display: block;
+  }
+  
+  .motilal-oswal-columns > div > div p:last-of-type picture source:not([media]),
+  .motilal-oswal-columns > div > div p:last-of-type picture img {
+    display: block;
+  }
+
+  .motilal-oswal-columns-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+  }
+}
+
+/* Ensure images are responsive */
+.motilal-oswal-columns > div > div p picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional styles for layout (if needed) */
+@media (min-width: 768px) {
+  .motilal-oswal-columns > div {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .motilal-oswal-columns > div > div {
+    flex: 1;
+  }
+}
