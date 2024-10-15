@@ -157,3 +157,57 @@
     .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
         --slide-content-width: auto;
     }
+.carousel-slide {
+  position: relative;
+}
+
+.carousel-slide-image p {
+  margin: 0;
+}
+
+.carousel-slide-image p picture {
+  display: block;
+}
+
+.carousel-slide-image p picture source,
+.carousel-slide-image p picture img {
+  display: none;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .carousel-slide-image p:first-of-type {
+    display: block;
+  }
+
+  .carousel-slide-image p:first-of-type picture source[media="(min-width: 600px)"],
+  .carousel-slide-image p:first-of-type picture img {
+    display: block;
+  }
+
+  .carousel-slide-image p:last-of-type {
+    display: none;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .carousel-slide-image p:first-of-type {
+    display: none;
+  }
+
+  .carousel-slide-image p:last-of-type {
+    display: block;
+  }
+
+  .carousel-slide-image p:last-of-type picture source:not([media]),
+  .carousel-slide-image p:last-of-type picture img {
+    display: block;
+  }
+}
+
+/* Ensure images are responsive */
+.carousel-slide-image p picture img {
+  max-width: 100%;
+  height: auto;
+}
