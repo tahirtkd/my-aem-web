@@ -132,7 +132,6 @@
     order: unset;
   }
 }
-
 .motilal-oswal-columns>div {
   display: flex;
   flex-direction: column;
@@ -203,3 +202,4 @@
     flex: 1;
   }
 }
+
