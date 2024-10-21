@@ -161,9 +161,9 @@
     display: block;
   }
 
-  .motilal-oswal-columns>div>div p:last-of-type {
+/*   .motilal-oswal-columns>div>div p:last-of-type {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 767px) {
